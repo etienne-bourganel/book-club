@@ -1,10 +1,10 @@
 <div class="bg-blue-600 flex flex-row
          items-center sm:justify-center m-4">
-    <div class="bg-blue-200 sm:flex flex-none sm:w-30"><img class="h-40 p-2" src="{{ post.image }}" alt=""></div>
-    <div class=" sm:flex m-2 sm:text-center order-last sm:order-1 sm:text-xl text-3xl">{{ post.book-number }}</div>
-    <div class="bg-blue-400 flex flex-none flex-col sm:flex-row">
+    <div class="bg-blue-200 sm:flex flex-none w-36"><img class="h-40 p-2" src="{{ post.image }}" alt=""></div>
+    <div class=" sm:flex m-2 sm:text-center order-last sm:order-1 sm:text-8xl text-6xl ml-4">{{ post.book-number }}</div>
+    <div class="bg-blue-400 flex flex-none flex-col sm:flex-row w-1/2">
         <div class="justify-start text-left m-2 sm:flex-1 sm:flex-column">
-            <div class="flex-1">{{ post.title }}</div>
+            <div class="flex-1 font-bold">{{ post.title }}</div>
             <div class="flex-1">{{ post.author }}</div>
             <div class="flex-1">{{ post.publication-year }}</div>
         </div>
