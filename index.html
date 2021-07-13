@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-<div class="m-0 bg-gradient-to-b from-gray-200 to-white font-serif">
 
-    <div class="flex flex-col flex-nowrap justify-center mx-0">
-
-        <div class="mb-4">
-            <h1 class="text-center italic m-6 text-5xl text-red-900">Le Book Club des Gentils Garçons</h1>
-        </div>
-        <div class="">
-            {% for post in site.posts %}
-                {% include book-review.html %}
-            {% endfor %}
-        </div>
+<div class="m-0 bg-gradient-to-b from-green-200 to-white font-serif">
+  <div class="flex flex-col flex-nowrap justify-center mx-0">
+    <div class="mb-4">
+      <h1 class="text-center italic m-6 text-5xl text-gray-900">
+        Le Book Club des Gentils Garçons
+      </h1>
     </div>
+    <div class="">
+      {% for post in site.posts %} {% include book-review.html %} {% endfor %}
+    </div>
+  </div>
 </div>
